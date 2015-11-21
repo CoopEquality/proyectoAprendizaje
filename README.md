@@ -31,8 +31,7 @@ The New York Times
 Mozilla Fundation
 Y otros mas!
 
-#### Instalar Django
-------
+### Instalar Django
 
 ###### instalar pip
 ------
