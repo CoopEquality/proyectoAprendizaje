@@ -1,5 +1,14 @@
 # proyectoAprendizaje
 
+###### Que vamos a intentar hacer ?
+la idea es poder llegar a conocer :
+* como funciona de manera simple el framework django como backend utilizandolo como una api rest.
+* como funciona angularjs como frontend consumiendo datos desde la api rest de django.
+* un poco de css y html para mostrar los datos de una manera "linda".
+
+###### de que se va a tratar este mini-proyecto ?
+se me ocurrio pensar en algo sencillo y que todos podamos llegar a conocer, tematica : futbol.
+
 ###### Que es Django ?
 ------
 es un framework web de código abierto escrito en Python que permite construir aplicaciones web más rápido y con menos código.
@@ -33,15 +42,43 @@ Y otros mas!
 
 ### Instalar Django
 
-###### instalar pip
+###### Instalar pip
 ------
 pip es una herramienta escrita en Python para facilitar la descarga e instalación de paquetes del lenguaje que se encuentren en el Python Package Index (PyPI).
 ```sudo apt-get install python-pip```
 
-###### instalar Django a traves de pip
+###### Instalar Django a traves de pip
 ------
 ```sudo pip install django```
 
-###### crear proyecto Django
+###### Instalar requerimientos para hacer andar la api rest.
 ------
-```django-admin startproject eqdjango```
+```pip install -r requirements.pip ```
+
+
+### Configurar Django
+
+###### Crear usuario para panel de administracion
+python manage.py createsuperuser 
+
+
+### Creamos un app llamada : EqEquipo (esta app ya esta creada en este repositorio)
+```python manage.py startapp eqequipo```
+
+esto nos crea la estructura :
+admin.py
+__init__.py
+models.py
+tests.py
+views.py 
+
+
+### Editores
+-----
+gdit (ya viene instalado en linux)
+notepad (ya viene instalado en windows)
+https://code.visualstudio.com/ (windows/linux)
+https://atom.io/ (linux)
+entre otros...
+
+
