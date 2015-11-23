@@ -7,7 +7,9 @@ la idea es poder llegar a conocer :
 * un poco de css y html para mostrar los datos de una manera "linda".
 
 ###### de que se va a tratar este mini-proyecto ?
-se me ocurrio pensar en algo sencillo y que todos podamos llegar a conocer, tematica : futbol.
+se me ocurrio pensar en algo sencillo :
+en el modelo vamos a tener personas y equipos, con una pequeña relacion entre ellos, con esto vamos a generar una api rest en django.
+estos datos van a esr consumidos por angularjs y mostrarlos en una web con un poco de css.
 
 ###### Que es Django ?
 ------
@@ -29,15 +31,15 @@ Al igual que otros frameworks de desarrollo web, django también trabaja con el 
 
 ###### Sitios web que utilizan o utilizaron el framework Django
 ------
-Google.
-Yahoo
-Discovery Comunication
-Instagram
-Pinterest
-National Geographic
-Walt Disney
-The New York Times
-Mozilla Fundation
+* Google.
+* Yahoo
+* Discovery Comunication
+* Instagram
+* Pinterest
+* National Geographic
+* Walt Disney
+* The New York Times
+* Mozilla Fundation
 Y otros mas!
 
 ### Instalar Django
@@ -75,10 +77,10 @@ views.py
 
 ### Editores
 -----
-gdit (ya viene instalado en linux)
-notepad (ya viene instalado en windows)
-https://code.visualstudio.com/ (windows/linux)
-https://atom.io/ (linux)
+* gdit (ya viene instalado en linux)
+* notepad (ya viene instalado en windows)
+* https://code.visualstudio.com/ (windows/linux)
+* https://atom.io/ (linux)
 entre otros...
 
 
